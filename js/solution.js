@@ -9,7 +9,7 @@
 // Key and using a more complex approach, you can write apps that allow nearly
 // all of the functions Flickr offers.
 $(document).on('ready', function(){
-  var searchImages = function(tags) {
+ / var searchImages = function(tags) {
     var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
     console.log(tags);
     $('#images').innerHTML = '<li class="search-throbber">Searching...</li>';
@@ -64,6 +64,6 @@ $(document).on('ready', function(){
     var modalBody = modal.find('.modal-body');
     modalBody.empty();
     var modalDescription = $("<p class='image-description'>").html(imageDescription).appendTo(modalBody);
-  });
+  }); 
 
 });

@@ -2,13 +2,19 @@
    Author's custom styles
    ========================================================================== */
 
-/* Enable these styles if you wish to go into a grid layout.
+/* Enable these styles if you wish to go into a grid layout. */
+
+body{
+	background-color:#FD482F;
+}
 ul#images li {
-    width: 120px;
+    width: 220px;
     height: auto;
     display: inline-block;
     position: relative;
-    float: left;
+    padding: 10px;
+	margin: 50px;
+	background-color: #FFD700;
 }
 
 ul#images li img {
@@ -17,32 +23,25 @@ ul#images li img {
     height: auto;
 }
 
+.placeholder{
+	background-color: #FD482F;
+}
+
+.searchControle{
+	width:200px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+
 ul#images li button {
     display: inline-block;
 }
 
+
+
+/*
 --- End of grid layout styles. */
-
-ul#images {
-    list-style-type: none;
-}
-
-ul#images .placeholder {
-    font-size: 2em;
-    font-weight: lighter;
-    color: #666;
-    width: 100%;
-    margin: 2em;
-}
-.modal-body img {
-    width: 100%;
-    height: auto;
-}
-
-hr {
-    clear:both;
-}
-
 
 
 
